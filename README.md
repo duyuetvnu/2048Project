@@ -4,11 +4,13 @@ Nguyễn Hoàng Duy
 Giới thiệu chung:
 
     Đây là trò chơi 2048 cổ điển được viết bằng ngôn ngữ C++, sử dụng thư viện đồ hoạ SDL2
-    
+
 Hướng dẫn cài đặt:
 
+Tải game tại đây: [Download](https://github.com/duyuetvnu/2048Project/releases/tag/v1.0.0)
+
     Vào thư mục x64/Debug/2048_Last_Version.exe để chơi game
-    
+
 Luật chơi:
 
     Sử dụng các phím mũi tên để di chuyển các khối ô vuông có các số là luỹ thừa của 2 từ 2 đến 2048. Mỗi lần di chuyển sẽ có một giá trị 2 hoặc 4 sinh ra ngẫu nhiên ở một ô trống ngẫu nhiên. Trò chơi sẽ kết thúc nếu không thể di chuyển hoặc đạt được giá trị 2048 ở một ô vuông bất kỳ
@@ -40,13 +42,13 @@ CREDIT:
     đã giúp em làm và hoàn thiện game này
     
     Đồng thời em xin cảm ơn
-
+    
         Lazy Foo' Prodution: https://lazyfoo.net/tutorials/SDL/
         Đã hướng dẫn em cài đặt, sử dụng và các tính năng của thư viện SDL2.
-
+    
         Chotom, link GitHub: https://github.com/Chotom
         Đây là nguồn tham khảo về các thuật toán của game.
-
+    
     Âm thanh được sử dụng:
         move.wav: https://www.zapsplat.com/music/board-game-plastic-token-move-on-board-x1/
         error.wav: https://www.zapsplat.com/music/game-error-tone-6/
