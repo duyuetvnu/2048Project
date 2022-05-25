@@ -9,7 +9,7 @@ Giới thiệu chung:
 
 Hướng dẫn cài đặt:
 
-Tải game tại đây: [Download](https://github.com/duyuetvnu/2048Project/releases/tag/v1.0.0)
+Tải game tại đây: [Download](https://github.com/duyuetvnu/2048Project/releases/download/v1.0.0/2048Portable.zip)
 
     Giải nén vào một tệp và chạy file 2048_Last_Version đê chơi game
 
