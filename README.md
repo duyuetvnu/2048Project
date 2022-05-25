@@ -3,19 +3,33 @@ Nguyễn Hoàng Duy
 
 Giới thiệu chung:
 
-Đây là [video](https://www.youtube.com/watch?v=3iDLFbshtWM) giới thiệu
+​	Đây là [video](https://www.youtube.com/watch?v=3iDLFbshtWM) giới thiệu
 
-    Đây là trò chơi 2048 cổ điển được viết bằng ngôn ngữ C++, sử dụng thư viện đồ hoạ SDL2
+​	Đây là trò chơi 2048 cổ điển được viết bằng ngôn ngữ C++, sử dụng thư viện đồ hoạ SDL2
 
 Hướng dẫn cài đặt:
 
-Tải game tại đây: [Download](https://github.com/duyuetvnu/2048Project/releases/download/v1.0.0/2048Portable.zip)
+​	Tải game tại đây: [Download](https://github.com/duyuetvnu/2048Project/releases/download/v1.0.0/2048Portable.zip)
 
-    Giải nén vào một tệp và chạy file 2048_Last_Version đê chơi game
+​	Giải nén vào một tệp và chạy file 2048_Last_Version.exe để chơi game
+​	Nếu máy báo lỗi VCRUNTIME140.dll is missing thì vào [link](https://www.dll-files.com/vcruntime140.dll.html) để tải phiên bản phù hợp
+
+​	Chọn phiên bản phù hợp để tải![Tải file vcruntime140.dll](https://cdn.tgdd.vn/hoi-dap/1346793/cach-sua-loi-vcruntime140dll-is-missing-tren-may-tinh-100-1-1-800x305.jpg)
+
+​	Giải nén file đã tải
+
+![Giải nén file vcruntime140.dll](https://cdn.tgdd.vn/hoi-dap/1346793/cach-sua-loi-vcruntime140dll-is-missing-tren-may-tinh-100-2-1-800x305.jpg)
+
+​	Nhấn tổ hợp Windows + R để mở hộp thoại Run, sao chép đường dẫn **C:\Windows\System32** rồi dán vào
+
+![Mở hộp thoại Run](https://cdn.tgdd.vn/hoi-dap/1346793/cach-sua-loi-vcruntime140dll-is-missing-tren-may-tinh-100-3-1-800x450.jpg)
+
+​	Chọn và kéo thư mục vcruntime140.dll vào trong System32 rồi tắt hết các chương trình đang mở và khởi động lại máy tính
 
 Luật chơi:
 
-    Sử dụng các phím mũi tên để di chuyển các khối ô vuông có các số là luỹ thừa của 2 từ 2 đến 2048. Mỗi lần di chuyển sẽ có một giá trị 2 hoặc 4 sinh ra ngẫu nhiên ở một ô trống ngẫu nhiên. Trò chơi sẽ kết thúc nếu không thể di chuyển hoặc đạt được giá trị 2048 ở một ô vuông bất kỳ
+​	Sử dụng các phím mũi tên để di chuyển các khối ô vuông có các số là luỹ thừa của 2 từ 2 đến 2048. Mỗi lần di chuyển sẽ có một giá trị 2 hoặc 4 sinh ra ngẫu nhiên ở một ô trống ngẫu nhiên. Trò chơi sẽ kết thúc nếu không thể di chuyển hoặc đạt được giá trị 2048 ở một ô vuông bất kỳ
+
 Các chức năng:
 
     Menu game
@@ -26,6 +40,7 @@ Các chức năng:
 Các kỹ thuật được sử dụng
 
     Con trỏ
+    Truyền tham chiếu
     Mảng
     Class
     Load ảnh, âm thanh từ thư viện SDL2
