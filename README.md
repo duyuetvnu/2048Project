@@ -3,13 +3,15 @@ Nguyễn Hoàng Duy
 
 Giới thiệu chung:
 
+Đây là [video](https://www.youtube.com/watch?v=3iDLFbshtWM) giới thiệu
+
     Đây là trò chơi 2048 cổ điển được viết bằng ngôn ngữ C++, sử dụng thư viện đồ hoạ SDL2
 
 Hướng dẫn cài đặt:
 
 Tải game tại đây: [Download](https://github.com/duyuetvnu/2048Project/releases/tag/v1.0.0)
 
-    Tải và giải nén vào 1 file, sau đó mở file 2048_Last_Version.exe để chơi game
+    Giải nén vào một tệp và chạy file 2048_Last_Version đê chơi game
 
 Luật chơi:
 
