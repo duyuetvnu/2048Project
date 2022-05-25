@@ -9,7 +9,7 @@ Hướng dẫn cài đặt:
 
 Tải game tại đây: [Download](https://github.com/duyuetvnu/2048Project/releases/tag/v1.0.0)
 
-    Vào thư mục x64/Debug/2048_Last_Version.exe để chơi game
+    Tải và giải nén vào 1 file, sau đó mở file 2048_Last_Version.exe để chơi game
 
 Luật chơi:
 
